@@ -3,6 +3,13 @@ for i in range (0,3):
 #drukuje 0 1 2
 print('---------------------------------------------------------------')
 
+for i in range (-10,1):
+    print (i)
+#drukuje -10 do 0 łącznie ->
+#CO JEST WAŻNE->PYTHON W RANGE NIE ŁAPIE GRANICZNEGO PARAMETRU RANGE DO (0,...)
+
+print('---------------------------------------------------------------')
+
 for i in range (0,3):
     j=i+1
     print ('i= ' + str(i))
