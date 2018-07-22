@@ -1,6 +1,6 @@
 tabela=[]
 for i in range(10):
-    tabela.append(i)
+    tabela.append(i) #wpisywanie elementow do tablicy
 print(tabela)
 #tworzenie tabeli 10 elementow- liczb 0-9
 print('---------------------------------------------------------------')
@@ -29,12 +29,20 @@ znaki=['x','y','z']
 
 print (liczby[-1])  #ostatni element tablicy
 print (znaki[-1])   #ostatni element tablicy
+print('------')
 print (liczby[0])   #pierwszy element tablicy
 print (znaki[0])    #pierwszy element tablicy
+print('------')
 print (liczby[2:])  #elementy od indeksu 2 do końca (łącznie z 2)
 print (znaki[:2])   #element do indeksu 2 (bez 2)
-print (liczby[3:0:-1])  #elementy od końca do początku???????????????????????
+print('------')
+print (znaki[1:2])  #indeks 1
+print (znaki[0:3])  #indeks od zera do 2
+#WAŻNE- PRAWA STRONA WSKAZUJE MIEJSCE INDEKS(B)-1 -> TABLICA[A:B] 
+print (liczby[6:0:-1])  #elementy od końca do PIERWSZEGO INDEKSU
 
+print('zwracanie odwroconej kolejnosci tablicy')
+print (liczby[::-1])
+#HACK FOR LIFE :D
 
-#wypisuje konkretne indeksy tablicy
 print('---------------------------------------------------------------')       
